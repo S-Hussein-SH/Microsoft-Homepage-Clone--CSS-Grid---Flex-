@@ -144,24 +144,37 @@ ul {
   padding: 50px 00 30px;
 }
 
-.xbox p, .carbon p {
+.xbox p,
+.carbon p {
   margin: 10px 0 20px;
 }
 
 /* CARBON */
- .carbon{
-     height: 350px;
-     width: 100%;
-     background: url("/images/carbon.jpg") no-repeat center center/cover;
- }
+.carbon {
+  height: 350px;
+  width: 100%;
+  background: url("/images/carbon.jpg") no-repeat center center/cover;
+}
 
- .carbon .content{
-     width: 55%;
-     padding: 100px 0 0 30px;
-     color: #fff;
- }
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
+  color: #fff;
+}
 
- .carbon .btn{
-     background: #f4f4f4;
-     color: #333;
- }
+.carbon .btn {
+  background: #f4f4f4;
+  color: #333;
+}
+
+/* FOLLOW */
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 30px 0 30px;
+}
+
+.follow * {
+  margin-right: 10px;
+}
